@@ -3,7 +3,7 @@
 *{
     margin: 0;
     padding: 0;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: "Roboto", sans-serif;
 }
 
 /* TOPO */
@@ -66,15 +66,17 @@ header, footer{
     align-items: center;
     justify-content: center;
     height: 100%;
-    padding: 40px 20px 40px 20px;
+    padding: 30px 20px;
+    margin: 5px;
 }
 
 .titulosTopo h1{
-    font-size: 40px;
+    font-size: 45px;
+    padding-bottom: 10px;
 }
 
 .titulosTopo h3{
-    font-size: 20px;
+    font-size: 25px;
     color: red;
 }
 
@@ -83,50 +85,67 @@ header, footer{
 }
 
 .corpoTituloVerde{
-    width: 1200px;
+    max-width: 1200px;
     margin: 0 auto;
-    padding: 30px;
+    padding: 20px;
     display: flex;
     justify-content: space-between;
     align-items: center;
-    gap: 20px;
     text-align: center;
 }
 
 .imgVerde{
-    width: 80px;
-    height: 80px;
+    width: 60px;
+    height: 70px;
+    padding-bottom: 5px;
 }
 
 .tituloVerde{
     text-align: center;
     color: #008000;
     margin:10px;
+    padding-bottom: 10px;
+    font-size: 35px;
 }
 
 .textoVerde{
     margin: 10px;
 }
 
-.textoMercado{
-    width: 1200px;
+
+.secaoTextoPreto{
     margin: 0 auto;
-    padding: 30px;
+    padding: 20px;
     display: flex;
-    justify-content: space-between;
-    align-items: flex-start;
-    gap: 20px;
-    text-align: center;
+    flex-wrap: wrap;
+    max-width: 1200px;
 }
 
-.secaoTextoCinza{
-    background-color: white;
+.textoMercado{
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    align-items: self-start;
+}
+
+.textoMercado p{
+    padding: 15px;
+    display: flex;
+    flex-direction: column;
+    text-align: justify;
+}
+
+.textoMercado div{
+    margin: 10px;
 }
 
 .imgMercado{
     width: 400px;
     height: auto;
+    padding: 10px 0;
 }
+
 
 /* FOOTER */
 
